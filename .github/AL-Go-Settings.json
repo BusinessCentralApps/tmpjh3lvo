@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/05c7a11b273fc725e6f2eaf485e6c7a24faa5e50/.Modules/settings.schema.json",
   "doNotPublishApps": true,
   "MicrosoftTelemetryConnectionString": "",
   "conditionalSettings": [
@@ -26,5 +27,5 @@
   "useApproximateVersion": true,
   "useCompilerFolder": true,
   "type": "PTE",
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/05c7a11b273fc725e6f2eaf485e6c7a24faa5e50/.Modules/settings.schema.json"
+  "templateSha": "990e0ebb40905ef329af24e308c06ead6c4e0f2b"
 }
