@@ -1,0 +1,30 @@
+{
+  "doNotPublishApps": true,
+  "MicrosoftTelemetryConnectionString": "",
+  "conditionalSettings": [
+    {
+      "workflows": [
+        "CI/CD"
+      ],
+      "settings": {
+        "workflowConcurrency": [
+          "group: ${{ github.workflow }}-${{ github.ref }}",
+          "cancel-in-progress: true"
+        ]
+      }
+    }
+  ],
+  "githubRunnerShell": "pwsh",
+  "runs-on": "ubuntu-latest",
+  "incrementalBuilds": {
+    "onPush": true
+  },
+  "UseProjectDependencies": true,
+  "templateUrl": "https://github.com/businesscentralapps/tmpn5coPv-PTE@main",
+  "shell": "pwsh",
+  "githubRunner": "ubuntu-latest",
+  "useApproximateVersion": true,
+  "useCompilerFolder": true,
+  "type": "PTE",
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/05c7a11b273fc725e6f2eaf485e6c7a24faa5e50/.Modules/settings.schema.json"
+}
